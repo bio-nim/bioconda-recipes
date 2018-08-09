@@ -9,7 +9,7 @@ source:
   url: //files.pythonhosted.org/packages/7b/a1/311f5f1444c35c542952dd5ec347a50fa7288a8c6eecdfced0d9fd5e0ab7/edlib-1.2.3.post1.tar.gz
   sha256: 622ea738c177ea1c5f131a137c37599daba55c8d75875d51e93a5a980b2ae5be
 build:
-  number: 3
+  number: 4
   skip: True  # [not py35]
   script: python setup.py install --single-version-externally-managed --record=record.txt
 requirements:
