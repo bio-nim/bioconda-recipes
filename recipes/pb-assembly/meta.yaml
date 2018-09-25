@@ -24,6 +24,7 @@ requirements:
     - bedtools
     - bwa
     - numpy
+    - avro==1.8.0
 test:
   imports:
     - falcon_unzip
